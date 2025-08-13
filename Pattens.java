@@ -1,7 +1,7 @@
 package forLoops;
 import java.util.Scanner;
 
-public class patten_uingFOR {
+public class Pattens {
 	public static void main(String args[]) {
 		try (Scanner input = new Scanner(System.in)) {
 			System.out.print("ENTER THE NUMBER OF ROWS : ");
