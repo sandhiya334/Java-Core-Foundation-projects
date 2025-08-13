@@ -1,4 +1,4 @@
-package while_dowhile;
+
 import java.util.Scanner;
 public class String_guessing {
 	public static void main(String args[]) {
