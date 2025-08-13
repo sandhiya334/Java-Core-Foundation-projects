@@ -1,8 +1,8 @@
-package while_dowhile;
-import java.util.Scanner;
-import java.util.Random;
 
-public class numberGUESSING {
+import java.util.Random;
+import java.util.Scanner;
+
+public class Number_Guessing {
 	public static void main(String args[]) {
 		try(Scanner input = new Scanner(System.in)){
 			Random random = new Random();
