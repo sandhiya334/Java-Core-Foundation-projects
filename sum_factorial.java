@@ -1,7 +1,6 @@
-package forLoops;
 import java.util.Scanner;
 
-public class sum_factorial_for {
+public class sum_factorial{
 	public static void main(String arg[]) {
 		try (Scanner input = new Scanner(System.in)) {
 			System.out.print("enter the number u need to get the sum of number = ");
