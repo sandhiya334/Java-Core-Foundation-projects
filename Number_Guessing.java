@@ -3,6 +3,7 @@ import java.util.Random;
 import java.util.Scanner;
 
 public class Number_Guessing {
+	
 	public static void main(String args[]) {
 		try(Scanner input = new Scanner(System.in)){
 			Random random = new Random();
