@@ -1,7 +1,7 @@
 package forLoops;
 import java.util.Scanner;
 
-public class array_multipy {
+public class matrix_multipy {
 	public static void main(String args[]) {
 		try (Scanner input = new Scanner(System.in) ){
 		
@@ -19,7 +19,7 @@ public class array_multipy {
 				for( int i =0 ; i< m_matrix_1 ; i++ ) {
 					for(int j =0 ; j<n_matrix_1 ; j++) {
 						System.out.print(" ELEMENT [ "+(i+1) +"][ "+(j+1)+" ] : ");
-						matrix_1[i][j]=  input.nextInt();;
+						matrix_1[i][j]=  input.nextInt();
 					}
 				}
 				
@@ -37,7 +37,7 @@ public class array_multipy {
 		for( int i =0 ; i< m_matrix_2 ; i++ ) {
 			for(int j =0 ; j<n_matrix_2 ; j++) {
 				System.out.print("ELEMENT [ "+(i+1) +"][ "+(j+1)+" ] : ");
-				matrix_2[i][j]=  input.nextInt();;
+				matrix_2[i][j]=  input.nextInt();
 			}
 		}
 	
